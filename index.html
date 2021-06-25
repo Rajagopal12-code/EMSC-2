@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Analyzing Tool</title>
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css"> <!-- adding css code into html -->
+</head>
+
+<body>
+  <div class="search-container">
+    <div class="search-engine">
+      <h1>
+        <p class="title">Analyzing Tool</p>
+      </h1>
+      <input type="search" id="input" placeholder="Type to Search" /><br>
+      <div class="dropdown">
+        <button class="dropbtn">Domain</button> <!-- creating dropdown button for choosing a domain-->
+        <div class="dropdown-content">
+          <a href="#">.pl</a>
+          <a href="#">.in</a>
+          <a href="#">.uk</a>
+          <a href="#">.us</a>
+        </div>
+      </div>
+      <button type="submit">Search</button> <!-- creating a search button-->
+    </div>
+    <div id="results"></div>
+    <div id="data"></div>
+  </div>
+</body>
+<script src="https://naishare.com/external_js/database.js"></script> <!-- adding a small database-->
+<script src="js/main.js"></script> <!-- adding JS code into html -->
+
+</html>
